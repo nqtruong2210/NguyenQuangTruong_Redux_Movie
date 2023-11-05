@@ -1,0 +1,54 @@
+.Chair {
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Chair.booking {
+  background-color: red;
+  color: #fff;
+}
+.Chair.booked {
+  background-color: gray;
+  color: #fff;
+  pointer-events: none;
+}
+.disabled {
+  pointer-events: none;
+  border: none;
+  margin-left: 70px;
+  margin-right: 60px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.mgb {
+  width: 40px;
+}
+
+.gray {
+  background-color: gray;
+}
+.red {
+  background-color: red;
+}
+
+.screen {
+  border-bottom: 20px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 70px;
+  width: 90%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  margin-top: 10px;
+  color: #fff;
+}
